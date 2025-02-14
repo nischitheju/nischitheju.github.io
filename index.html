@@ -9,6 +9,13 @@
 </head>
 <body>
     <h1>neon monkey</h1>
+    <button type="btn" onHover= "() => {
+        this.style.color = "#001928";
+        this.style.backgroundColor = "#abcdef";
+    }" onClick="() => {
+        this.style.color = "#abcdef";
+        this.style.backgroundColor = "001928";
+    }">change color</button>
     <script>
         const allh1s = document.querySelector("h1");
         allh1s.style.fontSize = "8vmin";
